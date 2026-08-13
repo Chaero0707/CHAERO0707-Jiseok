@@ -1,0 +1,31 @@
+<style>
+/* 1. 프로필 메인 영역 배경을 선명한 노란색으로 설정 */
+.profile-page, 
+.user-profile,
+div[ng-controller="UserController"] {
+    background-color: #FFDE4D !important; /* 선명하고 밝은 노란색 */
+    background-image: none !important;
+}
+
+/* 2. 사용자 이름(닉네임) 스타일 */
+.Player-username, 
+.username,
+h2, h3, h4 {
+    color: #111111 !important;        /* 진한 검은색으로 가독성 확보 */
+    font-weight: 800 !important;       /* 글자를 아주 두껍게 */
+    text-shadow: 1px 1px 0px #ffffff !important; /* 글자 뒤에 흰색 테두리 효과를 주어 더 잘 보이게 처리 */
+}
+
+/* 3. 유저 이름 옆의 바둑 급수/단수(랭크) */
+.rank, 
+.Player-rank {
+    color: #E05300 !important;        /* 진한 주황색으로 포인트 */
+    font-weight: bold !important;
+}
+
+/* 4. 프로필 내부 일반 소개 글자 색상 */
+.profile-page p,
+.profile-page div {
+    color: #222222 !important;        /* 일반 텍스트도 어두운 색으로 통일 */
+}
+</style>
